@@ -1,10 +1,15 @@
 namespace ToDoList
 {
-    public partial class Form1 : Form
+    public partial class ToDoList : Form
     {
-        public Form1()
+        public ToDoList()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
